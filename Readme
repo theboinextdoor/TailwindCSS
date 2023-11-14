@@ -1,0 +1,22 @@
+//? Step 1.  go to Tailwindcss.com --> get started --> UsingPostCSS --> copy the install css package with "vite"
+//! i.e    "npm install -D tailwindcss postcss autoprefixer vite"
+
+//? Step 2. add tailwind confug file 
+//! npx tailwindcss init -p
+
+//? Step 3. in package.json file add script
+//!  i.e     ""scripts": {
+//!               "script": "vite"
+//!           }
+
+//? in starting if you add "-y" then you dont need to add any script file 
+//!   npx tailwindcss init -y
+
+//? To Run the code 
+//! npx run start
+
+
+//? *********************** CSS File   "style.css" ***********************************
+//! @tailwind base;
+//! @tailwind components;
+//! @tailwind utilities;

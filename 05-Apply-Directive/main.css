@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+
+@layer components{.btn{      /*This is layer Directive*/
+
+     /*This is apply Directive*/
+    @apply bg-slate-800 m-5 p-2 rounded-md text-white active:bg-slate-700 font-medium hover:bg-slate-900
+}
+.activefnc{
+    @apply active:bg-slate-300 hover:bg-slate-500 text-black text-black 
+}}
